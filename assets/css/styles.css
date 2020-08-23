@@ -13,4 +13,8 @@
 	.pedirCarta{                                                                                                          
 		margin-top: 2px;                                                                                                  
 	}
+
+	#jugador.carta, #computadora-carta {
+		height: 80px;		
+	}
 }       
