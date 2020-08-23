@@ -1,0 +1,53 @@
+@media (max-width: 600px) {
+	
+	h1 {
+		font-size: 30px;
+	}
+
+	.carta {
+		position: relative;
+		width: 80px;
+		left: 70px;
+		margin-left: -45px;
+	}
+
+
+	.botones {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		font-size: 15px;
+	}
+
+	.titulo {
+		width: 100%;
+		font-size: 30px;
+		padding: 10px;
+		text-align: center;
+		letter-spacing: 2px;
+	}
+
+	.nuevo {
+		width: 150px;
+		height: auto;
+		font-size: 18px;
+	}
+	
+	.nuevo:hover {
+		background-color: #C93333; 
+	}
+
+	.pedirCarta{
+		width: 150px;
+		font-size: 18px;
+	}
+
+	.detener {
+		margin-top: 15px;
+		font-size: 18px;
+	}
+	 #jugador-cartas, #computadora-cartas{
+		height: 150px;
+	 }
+
+}
