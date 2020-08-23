@@ -29,7 +29,6 @@
 
 	.nuevo {
 		width: 150px;
-		height: auto;
 		font-size: 18px;
 	}
 	
@@ -51,3 +50,22 @@
 	 }
 
 }
+
+@media (max-width: 350px){
+	.botones {
+		display: flex;
+		justify-content: center;
+		align-content: center;
+		flex-direction: column;
+	}
+
+	.detener{
+		margin-top: 2px;
+		width: 150px;
+	}
+
+	.pedirCarta{
+		margin-top: 2px;
+	}
+
+} 
